@@ -1,0 +1,28 @@
+<html>
+    <head><title>LICENSE</title>
+    <style>
+        .f1{
+            padding-left: 40%;
+        }
+    </style>
+    <script>
+        function fun()
+        {
+            alert("successfully applied")
+        }
+    </script>
+    </head>
+    <body>
+        <h1 align="center">LICENSE</h1>
+        <form class="f1" >
+            dateofbirth:<input type="date" required /><br><br><br>
+            gender:
+            <input type="radio" id="male" value="male" required/>male
+            <input type="radio" id="female" value="female" />female
+            <input type="radio" id="others" value="others" />others  <br><br><br>
+            PAN NUMBER : <input type="tel" pattern="[1-9]{10}" required><br><br><br>
+            licence id: <input type="tel" pattern="[1-9]{13}" required><br><br><br>
+            <input type="submit" value="submit" onclick="fun()" >
+        </form>
+    </body>
+</html>
