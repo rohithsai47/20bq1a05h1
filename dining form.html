@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>slot for dining</title>
+    </head>
+    <boby>
+        <form align='center'>
+            <h1>Dine Booking</h1><br><br>
+            <label>Visitor Name:</label><input type="text" pattern="[A-Za-z]{20}" autofocus><br><br>
+            <label>Number of Members:</label><input type="text" pattern="[0-9]{2}"><br><br>
+            <label>Contact No.:</label><input type="text" pattern="[0-9]{10}"><br><br>
+            <label>Email: </label><input type="email" ><br><br>
+            <label for="food">Type of Food:</label><input type="checkbox" name="food"><label>South Indian  </label><input type="checkbox" name="food" ><label>North Indian  </label><input type="checkbox" name="food" ><label>Chinese  </label><input type="checkbox" name="food"><label>Western  </label><br><br>
+            <label>Room Status:</label><input type="radio" checked><label>AC  </label><input type="radio" ><label>Non-AC</label><br><br>
+            <label>Venue Preference:</label>
+            <select>
+                <option value="">--SELECT--</option>
+                <option>Arena</option>
+                <option>Fiesta</option>
+                <option>Vista</option>
+                <option>Mythri</option>
+                <option>Magna</option>
+                <option>Oasis</option>
+                <option disabled>Amoeba</option>
+            </select><br><br>
+            <input type="submit" value="SUBMIT">&nbsp;<input type="submit" value="RESET">
+        </form>
+    </boby>
+</html>
